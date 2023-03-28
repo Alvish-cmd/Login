@@ -1,0 +1,40 @@
+.profile{
+
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px; 
+}
+
+.profile .form-data .col{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile .form-data .col .row{
+    margin: 10px;
+}
+
+.profile .form-data .col .row label{
+    display: block;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 5px;
+}
+
+.profile .form-data .col .row input{
+    max-width: 300px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    height: 40px;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+button{
+    margin-left: 10px;
+}
